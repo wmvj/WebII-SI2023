@@ -1,0 +1,13 @@
+{
+    "tickets": [
+        {
+            "id": "589327b8-5509-4274-96b3-6d9bef4b3a52",
+            "equipment": "Smartphone",
+            "description": "A tela esta trincada",
+            "user_name": "Marcus",
+            "status": "open",
+            "create_at": "2025-09-04T18:00:42.082Z",
+            "update_at": "2025-09-04T18:00:42.082Z"
+        }
+    ]
+}
