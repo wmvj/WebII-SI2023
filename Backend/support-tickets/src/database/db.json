@@ -8,6 +8,15 @@
             "status": "open",
             "create_at": "2025-09-04T18:00:42.082Z",
             "update_at": "2025-09-04T18:00:42.082Z"
+        },
+        {
+            "id": "422367a7-7ef8-4a0b-8dd1-c14da05e7f44",
+            "equipment": "Roteador Sem Fio",
+            "description": "Sinal ruim",
+            "user_name": "Igor",
+            "status": "open",
+            "create_at": "2025-09-08T17:45:12.472Z",
+            "update_at": "2025-09-08T17:45:12.472Z"
         }
     ]
 }
