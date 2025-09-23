@@ -1,0 +1,193 @@
+type: collection.insomnia.rest/5.0
+name: API fastify knex
+meta:
+  id: wrk_1aa475eca89f4e83b42f6ebf24e46c18
+  created: 1758218405500
+  modified: 1758644853861
+  description: ""
+collection:
+  - url: http://localhost:3333/courses
+    name: List
+    meta:
+      id: req_6db2cc73a9a84621a7466f14f0cf1cb4
+      created: 1758644930218
+      modified: 1758645550737
+      isPrivate: false
+      description: ""
+      sortKey: -1758644930218
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/11.6.1
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://localhost:3333/courses
+    name: Create
+    meta:
+      id: req_6be5dc190ca74e9d83a5f0364c51d195
+      created: 1758644940303
+      modified: 1758653307296
+      isPrivate: false
+      description: ""
+      sortKey: -1758644940303
+    method: POST
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"name": "Instagram"
+        }
+    headers:
+      - name: Content-Type
+        value: application/json
+      - name: User-Agent
+        value: insomnia/11.6.1
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://localhost:3333/courses/12
+    name: Update
+    meta:
+      id: req_eec57dbc0e424bee981e94cd18fa7781
+      created: 1758644952813
+      modified: 1758653507444
+      isPrivate: false
+      description: ""
+      sortKey: -1758644952813
+    method: PUT
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"name": "Novo Curso"
+        }
+    headers:
+      - name: Content-Type
+        value: application/json
+      - name: User-Agent
+        value: insomnia/11.6.1
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: ""
+    name: Delete
+    meta:
+      id: req_c64b08ee3bcd415bbf47a43e902af236
+      created: 1758644965609
+      modified: 1758644973254
+      isPrivate: false
+      description: ""
+      sortKey: -1758644965609
+    method: DELETE
+    headers:
+      - name: User-Agent
+        value: insomnia/11.6.1
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://localhost:3333/modules
+    name: Create Module
+    meta:
+      id: req_b6742ee83ce14cdebcf83054f2bb2739
+      created: 1758644992914
+      modified: 1758651918522
+      isPrivate: false
+      description: ""
+      sortKey: -1758644992914
+    method: POST
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"name": "Introdução ao ChatBots",
+        	"course_id": 12
+        }
+    headers:
+      - name: Content-Type
+        value: application/json
+      - name: User-Agent
+        value: insomnia/11.6.1
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://localhost:3333/modules
+    name: List Module
+    meta:
+      id: req_e253a156ee834cc78f140037b5a1a981
+      created: 1758645184790
+      modified: 1758645862696
+      isPrivate: false
+      description: ""
+      sortKey: -1758644979261.5
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/11.6.1
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://localhost:3333/courses/12/modules
+    name: List Course Modules
+    meta:
+      id: req_cf01c5e1a1f64c50b71d6a3f08763006
+      created: 1758645840991
+      modified: 1758645904042
+      isPrivate: false
+      description: ""
+      sortKey: -1758644972435.25
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/11.6.1
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+cookieJar:
+  name: Default Jar
+  meta:
+    id: jar_d841fde253ac5f4cb2543a5484521b5ec3f3d12d
+    created: 1758218405541
+    modified: 1758218405541
+environments:
+  name: Base Environment
+  meta:
+    id: env_d841fde253ac5f4cb2543a5484521b5ec3f3d12d
+    created: 1758218405509
+    modified: 1758218405509
+    isPrivate: false
