@@ -1,3 +1,5 @@
+import "./global.css"
+
 import { Button } from "./components/button"
 
 export function App(){
@@ -7,8 +9,14 @@ export function App(){
       <h1>Boas vindas</h1>
      <Button
         name="Adicionar"
-        onClick={()=>alert("Teste")}
+        // onClick={()=>alert("Teste")}
       />
+
+     <Button
+        name="Subtrair"
+        // onClick={()=>alert("Teste")}
+      />
+
     </div>
   )
 }
